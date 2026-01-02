@@ -13,7 +13,7 @@ public class Inheritance {
 
     class dog extends Inheritance {
         void bark() {
-            System.out.println("dog can bark");
+            System.out.println("dog can bark and walk");
         }
     }
     class call {
