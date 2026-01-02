@@ -3,10 +3,10 @@ package src.main.java;
 import java.lang.String;
 
 public class employee {
-        java.lang.String name;
+        String name;
         int emp_id;
-        java.lang.String department;
-        java.lang.String designation;
+        String department;
+        String designation;
         public void employee_print(){
             System.out.println("Name of the employee:" +name);
             System.out.println("ID of the employee:" +emp_id);
