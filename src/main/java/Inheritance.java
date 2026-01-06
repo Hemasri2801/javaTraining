@@ -1,8 +1,4 @@
-package src.main.java;
-
-import java.lang.String;
-
-public class Inheritance {
+    public class Inheritance {
         int legs = 4;
         public void eat() {
             System.out.println("animal can eat");
@@ -13,7 +9,7 @@ public class Inheritance {
 
     class dog extends Inheritance {
         void bark() {
-            System.out.println("dog can bark and also walk");
+            System.out.println("dog can bark");
         }
     }
     class call {
@@ -24,5 +20,4 @@ public class Inheritance {
             obj.eat();
             obj.walk();}
     }
-
 
