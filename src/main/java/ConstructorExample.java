@@ -10,8 +10,8 @@ public class ConstructorExample {
         System.out.println("Age: " + age);
     }
     public static void main(String[] args) {
-        ConstructorExample s1 = new ConstructorExample("Hema", 15);
-        ConstructorExample s2 = new ConstructorExample("Iniya", 16);
+        ConstructorExample s1 = new ConstructorExample("Hema", 25);
+        ConstructorExample s2 = new ConstructorExample("Iniya", 26);
         s1.display();
         s2.display();
     }
